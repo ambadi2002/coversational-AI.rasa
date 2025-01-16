@@ -1,0 +1,12 @@
+{
+  "0": "ask_delivery_time",
+  "1": "ask_payment_method",
+  "2": "ask_pizza_menu",
+  "3": "ask_vegan_options",
+  "4": "check_delivery",
+  "5": "greet",
+  "6": "place_order",
+  "7": "shop_close",
+  "8": "thank",
+  "9": "track_order"
+}

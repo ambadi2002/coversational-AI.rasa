@@ -1,0 +1,48 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_pizza_menu
+  - place_order
+  - ask_delivery_time
+  - track_order
+  - ask_vegan_options
+  - ask_payment_method
+  - check_delivery
+  - shop_close
+  - thank
+
+responses:
+  utter_greet:
+  - text: "Hai,what can i do for you"
+
+  utter_ask_pizza_menu:
+  - text: "Our menu includes; Margherita, Pepperoni, Veggie Supreme, BBQ Chicken, Hawaiian Delight. Let us know which one you'd like!"
+
+  utter_place_order:
+  - text: "You can place an order by selecting a pizza from our menu. Let me know your choice, size (small, medium, or large), and any additional toppings you'd like!"
+
+  utter_ask_delivery_time:
+  - text: "Our current delivery time is approximately 30–45 minutes, depending on your location. Would you like to proceed with your order?"
+
+  utter_track_order:
+  - text: "Of course! Please provide your order number, and I’ll check the status for you."
+
+  utter_ask_vegan_options:
+  - text: "Yes, we do! Our vegan options include:Vegan Margherita ,Vegan Veggie Supreme . Would you like to try one of these?"
+
+  utter_ask_payment_method:
+  - text: "We accept the following payment methods:Credit/Debit Cards, Online Wallets (PayPal, Google Pay, etc.),Cash on Delivery (COD).Which method would you like to use?"
+
+  utter_check_delivery:
+  - text: "Let me check... Yes, we deliver to [location]! Would you like to place an order?"
+
+  utter_shop_close:
+  - text: "12.00 AM"
+
+  utter_thank:
+  - text: "Thank you"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,12 @@
+#rules.yml
+
+version: "3.1"
+
+rules:
+
+- rule: Say "Hai,what can i do for you" anytime the user says greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+

@@ -1,0 +1,55 @@
+version : "3.1"
+
+stories:
+- story: greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: ask pizza menu
+  steps:
+  - intent: ask_pizza_menu
+  - action: utter_ask_pizza_menu
+
+- story:  place the order
+  steps:
+  - intent: place_order
+  - action: utter_place_order
+
+- story: ask delivery time
+  steps:
+  - intent: ask_delivery_time
+  - action: utter_ask_delivery_time
+
+- story: track the order
+  steps:
+  - intent: track_order
+  - action: utter_track_order
+
+- story: ask for vegan option
+  steps:
+  - intent: ask_vegan_options
+  - action: utter_ask_vegan_options
+
+- story: ask for payment method
+  steps:
+  - intent: ask_payment_method
+  - action: utter_ask_payment_method
+
+- story: check the delivery
+  steps:
+  - intent: check_delivery
+  - action: utter_check_delivery
+
+- story: shop closing
+  steps:
+  - intent: shop_close
+  - action: utter_shop_close
+
+- story: thank
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+
+

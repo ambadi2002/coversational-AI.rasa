@@ -1,0 +1,82 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - good morning
+    - good evening
+    - good afternoon
+    - hey
+- intent: ask_pizza_menu
+  examples: |
+    - what type of pizzas do you have
+    - show me the pizza menu
+    - what flavours of pizzas are available
+    - can i see your pizza options
+    - what kind of pizza do you serve
+
+- intent: place_order
+  examples: |
+      - how can i place an order
+      - i want to order a pizza
+      - can you take my pizza order
+      - i want to buy a pizza
+      - How do I order from you
+
+- intent: ask_delivery_time
+  examples: |
+    - how long will delivery takes
+    - when will my pizza delivered
+    - what is the delivery time for an order
+    - how soon can you deliver
+    - when will my order delivered
+
+- intent: track_order
+  examples: |
+    - can i track my order
+    - how do i check my order status
+    - where is my pizza
+    - is my order is on the way
+    - how do i know about the status of my order
+
+- intent: ask_vegan_options
+  examples: |
+    - do you have vegan options
+    - are there vegan pizzas available
+    - do you serve vegan pizzas
+    - do you have dairy free pizza
+    - what vegan dishes do you offer to me
+
+- intent: ask_payment_method
+  examples: |
+    - what are the payment methode do you accepting
+    - how can i pay the bill
+    - how can i pay for my order
+    - is cash on delivery is available
+    - can i pay using google pay
+
+- intent: check_delivery
+  examples: |
+    - do you deliver to [kollam](location)
+    - Can you deliver to [Trivandrum](location)
+    - is delivery is available in [punchirimukku](location)
+    - do you cover [mylode](location)
+    - can i get a pizza delivery to[oyur](location)
+
+- intent: shop_close
+  examples: |
+    - What time does your shop close
+    - when do you close the shop
+    - what is your closing time
+    - can you tell me when will your shop shut down
+    - closing time
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - bey
+
+
