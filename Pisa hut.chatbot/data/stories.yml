@@ -9,7 +9,7 @@ stories:
 - story: ask pizza menu
   steps:
   - intent: ask_pizza_menu
-  - action: utter_ask_pizza_menu
+  - action: action_extraction_food_entity
 
 - story:  place the order
   steps:
@@ -39,7 +39,7 @@ stories:
 - story: check the delivery
   steps:
   - intent: check_delivery
-  - action: utter_check_delivery
+  - action: action_extraction_location_entity
 
 - story: shop closing
   steps:
