@@ -11,11 +11,11 @@ nlu:
     - hey
 - intent: ask_pizza_menu
   examples: |
-    - what type of pizzas do you have
-    - show me the pizza menu
-    - what flavours of pizzas are available
-    - can i see your pizza options
-    - what kind of pizza do you serve
+    - what type of [pizza](food) do you have
+    - show me the [pizza](food) menu
+    - what flavours of [pizza](food) are available
+    - can i see your [pizza](food) options
+    - what kind of [pizza](food) do you serve
 
 - intent: place_order
   examples: |
