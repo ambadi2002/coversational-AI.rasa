@@ -12,6 +12,11 @@ intents:
   - shop_close
   - thank
 
+entities:
+  - food
+  - location
+  
+
 responses:
   utter_greet:
   - text: "Hai,what can i do for you"
@@ -42,6 +47,10 @@ responses:
 
   utter_thank:
   - text: "Thank you"
+
+actions:
+  - action_extraction_food_entity
+  - action_extraction_location_entity
 
 session_config:
   session_expiration_time: 60
